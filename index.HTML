@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <STYle>
+        .con{
+            height: 600px;
+            /* border: 1px solid black; */
+        }
+        .box{
+            height: 80%;
+            width: 80%;
+            /* border: 1px solid black; */
+            margin: auto;
+            margin-top: 60px;
+            border-radius: 40px;
+            display: flex;
+            box-shadow: 10px 10px 10px;
+
+        }
+        .left,.right,.center{
+            height: 100%;
+            /* border: 1px solid black ; */
+        }
+        .left{
+            width: 2%;
+            background-color: navy;
+            border-radius: 20px;
+        }
+        .center{
+            color: navy;
+            width: 63%;
+            background-color: whitesmoke;
+            font-size: 75px;
+        }
+        .center>h1{
+            margin-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 118px;
+        }
+        .right{
+            width: 35%;
+            border-radius: 20px;
+            border: 1px solid grey;
+
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .top{
+            height: 30%;
+            /* border: 1px solid black; */
+        }
+        .bottam{
+            height: 70%;
+            /* border: 1px solid black; */
+        }
+        .top-in{
+            height: 90%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            background-color: navy;
+            /* border: 1px solid black; */
+        }
+        .circle{
+            height: 120px;
+            width: 120px;
+            border: 1px solid navy;
+            border-radius: 50%;
+            position: absolute;
+            top: 80px;
+            right: 280px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            border: 2px solid white ;
+        }
+        h2{
+            text-align: center;
+        }
+        .icon{
+            height: 20%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .b{
+            height: 50%;
+            width: 40%;
+            background-color: navy;
+            color: white;
+            border-radius: 20px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .button{
+            height: 20%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .fa-facebook{
+            color: blue;
+        }
+        .fa-instagram{
+            background: linear-gradient(red , orange);
+            color: transparent;
+            background-clip: text;
+        }
+        .fa-linkedin{
+            color:navy;
+        }
+        .fa-github{
+            color: violet;
+        }
+        .fa-behance{
+            color:green;
+        }
+        .fa-heart{
+            color: red;
+        }
+        
+    </STYle>
+</head>
+<body>
+    <div class="con">
+        <div class="box">
+            <div class="left"></div>
+            <div class="center">
+                <h1>Profile Card UI UX Design</h1>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <div class="top-in">
+                        <div class="circle">
+                            <img src="capture 2.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bottam">
+                   <h2>web Designer</h2>
+                    <h2>Dezyne Ecole College </h2>
+                    <h2>bca 1st year</h2>
+                    <div class="icon">
+                        <i class="fa fa-brands fa-2x fa-facebook"> </i>
+                        <i class="fa fa-brands fa-2x fa-instagram"> </i>
+                        <i class="fa fa-brands fa-2x fa-linkedin"> </i>
+                        <i class="fa fa-brands fa-2x fa-github"> </i>
+                        <i class="fa fa-brands fa-2x fa-behance"> </i>
+                    </div>
+                    <div class="button">
+                        <div class="b">
+                            subscribe
+                        </div>
+                        <div class="b">
+                            message
+                        </div>
+                    </div>
+                        <div class="icon">
+                            <i class=" fa fa-solid fa-heart"></i>60k
+                            <i class=" fa fa-solid fa-comment"></i>20k
+                            <i class=" fa fa-solid fa-share fa-flip-horizontal "></i>12.6k
+                        </div>
+                    </div>
+                </div> 
+            </div>
+    </div>
+    </div>
+</body>
+</html>
